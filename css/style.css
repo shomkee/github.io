@@ -1,0 +1,65 @@
+@font-face {
+font-family: 'Ronnia';
+  src: url('./fonts/Ronia/RonniaCond-Bold.eot');
+  src: url('./fonts/Ronia/RonniaCond-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('./fonts/RonniaCond-Regular.otf'),
+  url('./fonts/Ronia/RonniaCond-Bold.woff') format('woff'),
+  url('./fonts/Ronia/RonniaCond-Bold.ttf') format('truetype'),
+  url('./fonts/Ronia/RonniaCond-Bold.svg#RonniaCond-Bold') format('svg');
+}
+
+
+body, ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+.layer {
+	width: 100%;
+}
+.about {
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+
+.main {
+	position: absolute;  /* подробнее про position: absolute; */
+	top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+	/*background: gray;*/
+	text-align: center;
+	padding: 2%;
+	z-index: 999;
+
+}
+.name {
+	font-family: Ronnia, sans-serif;
+	font-size: 80pt;
+
+}
+.logo_main {
+	/*max-width: 320px;
+	max-height: 320px;*/
+}
+.contacts {
+	display: flex;
+}
+.contacts a {
+	font-size: 60pt;
+	margin-left: 2%;
+	color: #0088ED;
+}
+.contacts a:hover {
+	color: #00A3DA;
+}
+
+.scene, .scene1 {
+	margin-bottom:0px;
+
+}
